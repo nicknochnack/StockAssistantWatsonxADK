@@ -1,0 +1,6 @@
+spec_version: v1
+kind: native
+name: nicksamazinggartneragent 
+description: this is an agent for stock research 
+llm: watsonx/meta-llama/llama-4-maverick-17b-128e-instruct-fp8
+style: react 

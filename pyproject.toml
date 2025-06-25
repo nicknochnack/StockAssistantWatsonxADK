@@ -1,0 +1,11 @@
+[project]
+name = "3-06-2025-adk"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "colorama>=0.4.6",
+    "ibm-watsonx-orchestrate>=1.4.2",
+    "yfinance>=0.2.61",
+]
