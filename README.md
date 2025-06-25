@@ -17,7 +17,7 @@ WATSONX_SPACE_ID=
 6. Install orchestrate: `uv run orchestrate server start --env-file='.env'`
 7. Activate local tenant: `orchestrate env activate local`
 8. Start the Chat UI: `uv run orchestrate chat start`
-9. Create an agent `uv run orchestrate agents import -f ${SCRIPT_DIR}/agents/ibm_agent.yaml`
+9. Create an agent `uv run orchestrate agents import -f myamazingagent.yaml`
 10. Import a tool `uv run orchestrate tools import -k python -f "stockprice.py" -r "stocks.txt"`
 
 </br>
